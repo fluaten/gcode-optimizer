@@ -1,27 +1,120 @@
+/* v1.0 | 20080212 */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
 #canvas {
-    border-radius: 5px;
     margin-top: 20px;
+	background-image: url(irongrip.png);
+	padding: 20px;
+}
+
+header p {
+	color: #eaeaea;
 }
 
 #title {
-    margin-top: 40px;
-    font-size: 42px;
+    margin-top: 30px;
+    font-size: 35px;
     display: block;
     margin-bottom: 9px;
     letter-spacing: -1px;
+	font-weight: normal;
+	font-style: normal;
+	color: #eaeaea;
+}
+
+div.row-fluid {
+	color: #eaeaea;
+	border-top-width: 0;
+}
+
+header h3 {
+color: #a9a9a9;
+	font-weight: normal;
+	font-style: normal;
+}
+
+header h2 {
+	font-weight: normal;
+	font-style: normal;
+	color: #eaeaea;
+}
+
+#loadGcode {
+	margin-left: 10px;
+	color: #eaeaea;
 }
 
 #control_bottons {
     margin: 10px;
+    color: #eaeaea;
 }
 
 #status {
     margin: 10px;
     padding: 15px;
     text-align: center;
+    color: #eaeaea;
 }
 
 footer {
     margin-left: -150px;
     text-align: center;
+    color: #eaeaea;
+}
+
+html,body {
+	background-color: #424242;
+	background-image: url(cartographer.png);
+	color: #eaeaea;
 }
